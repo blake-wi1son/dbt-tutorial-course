@@ -5,7 +5,7 @@ WITH source AS (
 
 SELECT
     -- IDs
-    id AS product_id,
+    product_id,
 
     -- Other columns
     cost,
