@@ -5,7 +5,7 @@ WITH source AS (
 
 SELECT
     -- IDs
-    order_item_id,
+    id AS order_item_id,
     order_id,
     user_id,
     product_id,
